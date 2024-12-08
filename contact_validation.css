@@ -76,8 +76,13 @@ body {
 .reset_btn {
   background: #e6e6e6;
 }
-.alert {
-  color: #fff;
-  padding: 20px;
-  background: #d14539;
+.error-message {
+  color: #d14539; /* 文字色 */
+  font-size: 14px;
+  margin-top: 5px; /* 上部の余白 */
 }
+
+.contact_input input.error {
+  background-color: rgba(230, 169, 171, 0.5); /* 背景色 */
+}
+
